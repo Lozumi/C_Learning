@@ -5,6 +5,7 @@
 #define B 5
 #define C 6
 int multiply(void);
+int nouse(void);
 
 int main()
 {
@@ -17,4 +18,10 @@ int multiply()
 {
     int sum = A*B*C;
     return sum;
+}
+
+int nouse()
+{
+    int nousex = 0;
+    return nousex;
 }
